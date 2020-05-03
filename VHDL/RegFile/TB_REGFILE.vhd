@@ -1,0 +1,138 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.numeric_std.ALL;
+
+entity TB_REGFILE is
+
+end TB_REGFILE;
+
+architecture Behave of TB_REGFILE is
+  
+   signal DSEL1,ASEL1,BSEL1 : unsigned (2 downto 0) := (others => '0');
+   signal DIN1,RIN1,ABUS1,BBUS1 : unsigned (15 downto 0) := (others => '0');
+   signal CLK1 : std_logic;
+   signal RST1 : std_logic;
+  
+  component REGFILE is
+port(
+--Inputs
+   DSEL,ASEL,BSEL  : in unsigned (2 downto 0);
+   DIN,RIN : in unsigned (15 downto 0);
+   RST,CLK : in std_logic;
+--OUTPUTS
+   ABUS,BBUS : out unsigned (15 downto 0)
+ 	);
+
+   end component;
+ 
+constant clk_period : time := 10 ns;
+
+begin
+  REGFILE1 : REGFILE port map (
+		DSEL => DSEL1,
+		ASEL => ASEL1,
+		BSEL => BSEL1,
+		DIN => DIN1,
+		RIN => RIN1,
+		RST => RST1,
+		CLK => CLK1,
+		ABUS => ABUS1,
+		BBUS => BBUS1);
+
+	process begin
+		CLK1 <= '0';
+		wait for clk_period/2;
+		CLK1 <= '1';
+		wait for clk_period/2;
+	end process;
+
+testbench: process
+procedure microop(
+		ASEL2,BSEL2,DSEL2 : in integer;
+ 		DIN2,RIN2 : in integer;
+ 		ABUS2,BBUS2 : in integer
+		) is  
+begin 
+	
+	ASEL1 <= to_unsigned(ASEL2,3);
+	BSEL1 <= to_unsigned(BSEL2,3);
+	DSEL1 <= to_unsigned(DSEL2,3);
+	DIN1 <= to_unsigned(DIN2,16);
+	RIN1 <= to_unsigned(RIN2,16);
+	wait until CLK1'event and rising_edge(CLK1);
+	if (to_unsigned(ABUS2,16) = ABUS1) then
+	report "ABUS matched";
+	else
+	report "ABUS doesn't match";
+	end if;
+	if (to_unsigned(BBUS2,16) = BBUS1) then
+	report "BBUS matched";
+	else
+	report "BBUS doesn't match";
+	end if;
+end microop;
+	
+begin
+
+	
+      RST1<='1';
+       wait until CLK1'event and rising_edge(CLK1);
+       wait until CLK1'event and rising_edge(CLK1);
+      RST1<='0';
+       wait until CLK1'event and rising_edge(CLK1);
+       wait until CLK1'event and rising_edge(CLK1);
+      RST1<='1';      
+    -- Check that reset worked... all registers should be '0' */
+     -- /* Order of arguments:  ASEL BSEL DSEL DIN RIN ABUS BBUS */
+      microop(1,0,0,0,0,0,0);
+      microop(2,0,0,0,0,0,0);
+      microop(3,0,0,0,0,0,0);
+      microop(4,0,0,0,0,0,0);
+      microop(5,0,0,0,0,0,0);
+      microop(6,0,0,0,0,0,0);
+      microop(7,0,0,0,0,0,0);
+      microop(0,1,0,0,0,0,0);
+      microop(0,2,0,0,0,0,0);
+      microop(0,3,0,0,0,0,0);
+      microop(0,4,0,0,0,0,0);
+      microop(0,5,0,0,0,0,0);
+      microop(0,6,0,0,0,0,0);
+      microop(0,7,0,0,0,0,0);
+      microop(0,0,0,0,0,0,0);
+
+     -- /* Write some values into the registers */
+      microop(0,0,1,0,1,0,0);
+      microop(0,0,2,0,2,0,0);
+      microop(0,0,3,0,3,0,0);
+      microop(0,0,4,0,4,0,0);
+      microop(0,0,5,0,5,0,0);
+      microop(0,0,6,0,6,0,0);
+      microop(0,0,7,0,7,0,0);
+
+     wait until CLK1'event and rising_edge(CLK1);
+     wait until CLK1'event and rising_edge(CLK1);
+   --   /* Read back on A bus */
+      microop(0,0,0,15,10,15,15);
+      microop(1,0,0,0,10,1,0);
+      microop(2,0,0,0,10,2,0);
+      microop(3,0,0,0,10,3,0);
+      microop(4,0,0,0,10,4,0);
+      microop(5,0,0,0,10,5,0);
+      microop(6,0,0,0,10,6,0);
+      microop(7,0,0,0,10,7,0);
+
+      wait until CLK1'event and rising_edge(CLK1);
+      wait until CLK1'event and rising_edge(CLK1);
+    --  /* Read back on B bus */
+      microop(0,0,0,16,12,16,16);
+      microop(0,1,0,0,10,0,1);
+      microop(0,2,0,0,10,0,2);
+      microop(0,3,0,0,10,0,3);
+      microop(0,4,0,0,10,0,4);
+      microop(0,5,0,0,10,0,5);
+      microop(0,6,0,0,10,0,6);
+      microop(0,7,0,0,10,0,7);
+		
+end process;
+end architecture;
+

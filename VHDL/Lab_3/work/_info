@@ -1,0 +1,503 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles
+vALU
+Z0 !s110 1574886119
+!i10b 1
+!s100 ^6iC77bM2Skg]kI8<nD470
+I?Jh4Head;gRA7@[jVEKD]0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3
+w1572520208
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ALU.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ALU.v
+Z3 L0 19
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1574886119.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vCPU
+R0
+!i10b 1
+!s100 7:T6BFVL8[`]L4L223_zG0
+I8<dXR[Dh_>7DgRIh4mlkg3
+R1
+R2
+w1574356449
+Z8 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU.v.v
+Z9 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU.v.v
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1574886118.000000
+Z10 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU.v.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU.v.v|
+!i113 1
+R6
+R7
+n@c@p@u
+vCPU_TestBench
+Z12 !s110 1574886120
+!i10b 1
+!s100 ?KUUg1I:=O_Cf8YI3G>j<2
+Ig^?SO_>QdfkLan9Z<RSY`2
+R1
+R2
+w1572911776
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU_TestBench.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU_TestBench.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1574886120.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU_TestBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/CPU_TestBench.v|
+!i113 1
+R6
+R7
+n@c@p@u_@test@bench
+vFPGA_2_LCD
+!s110 1576028495
+!i10b 1
+!s100 KQ38manXKXOUgTk?l57<N1
+I]:V30IdlK[eSn>Ga63Kn30
+R1
+R2
+w1576027842
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1576028495.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD.v|
+!i113 1
+R6
+R7
+n@f@p@g@a_2_@l@c@d
+Egates
+Z14 w1568835553
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R2
+Z18 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/GATES.vhd
+Z19 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/GATES.vhd
+l0
+L5
+V568Ze>Ji1DJ6LUJeS=V=E0
+!s100 lZ3eC?HLH3cME8f18^RzR1
+Z20 OV;C;10.5b;63
+32
+Z21 !s110 1570648351
+!i10b 1
+Z22 !s108 1570648351.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/GATES.vhd|
+Z24 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/GATES.vhd|
+!i113 1
+Z25 o-work work -2002 -explicit
+Z26 tExplicit 1 CvgOpt 0
+Artl
+R15
+R16
+R17
+DEx4 work 5 gates 0 22 568Ze>Ji1DJ6LUJeS=V=E0
+l14
+L13
+V9V0nn^dF6m`jen`nh6XjH1
+!s100 iUP10>3FH_F`3?Dmz[F8O0
+R20
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R25
+R26
+vGATES
+Z27 !s110 1569940405
+!i10b 1
+!s100 aTLUF?HfFShHd<E__AT`m2
+INDnJaPAi9HnB]K1FHjBR41
+R1
+R2
+Z28 w1569439536
+Z29 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v
+Z30 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z31 !s108 1569940405.000000
+Z32 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v|
+Z33 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v|
+!i113 1
+R6
+R7
+n@g@a@t@e@s
+vLCD
+!s110 1576029000
+!i10b 1
+!s100 8bP>9Rk6AW69]GanhF6jZ2
+IV9c7Cl`Q=K4=dBLQ;h0ig3
+R1
+R2
+w1576028998
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD_Project.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD_Project.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1576028999.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD_Project.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/LCD_Project.v|
+!i113 1
+R6
+R7
+n@l@c@d
+vMemory_Interface
+Z34 !s110 1574886121
+!i10b 1
+!s100 BLCmL;BB7GVMU7CAMMG]H1
+IN5gA<LEWdaIX1Wc?RhJA=3
+R1
+R2
+w1574362032
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Memory_Interface.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Memory_Interface.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z35 !s108 1574886121.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Memory_Interface.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Memory_Interface.v|
+!i113 1
+R6
+R7
+n@memory_@interface
+vMICROCODE_ROM
+!s110 1575480578
+!i10b 1
+!s100 PY6TPTBLLm2?A2AM;eQe:3
+I6n_`ChQf]5m_KQUGZi^G:3
+R1
+R2
+w1574886085
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/microcode_rom_example.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/microcode_rom_example.v
+L0 14
+R4
+r1
+!s85 0
+31
+!s108 1575480578.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/microcode_rom_example.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/microcode_rom_example.v|
+!i113 1
+R6
+R7
+n@m@i@c@r@o@c@o@d@e_@r@o@m
+vMICROCODE_ROM_template
+!s110 1572520210
+!i10b 1
+!s100 ^m;7WC?SX>HmGeQEQ?g@D0
+I1YaLHJ:[P9TP6Gi?b?=cD3
+R1
+R2
+w1572519223
+R8
+R9
+L0 8
+R4
+r1
+!s85 0
+31
+!s108 1572520210.000000
+R10
+R11
+!i113 1
+R6
+R7
+n@m@i@c@r@o@c@o@d@e_@r@o@m_template
+vRAM
+R34
+!i10b 1
+!s100 PH:lz=3LH<o4TCJjEDAB20
+Im4O225j`OVcoGXoMnFVcF0
+R1
+R2
+w1574350732
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ram.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ram.v
+L0 2
+R4
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/ram.v|
+!i113 1
+R6
+R7
+n@r@a@m
+Eregfile
+Z36 w1571160521
+R15
+R16
+R17
+R2
+Z37 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/REGFILE.vhd
+Z38 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/REGFILE.vhd
+l0
+L5
+VcT2;_a4CfFY:WAL7IWbc[3
+!s100 L7dm;]c<JddX:242XV:Dj0
+R20
+32
+Z39 !s110 1571160526
+!i10b 1
+Z40 !s108 1571160526.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/REGFILE.vhd|
+Z42 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/REGFILE.vhd|
+!i113 1
+R25
+R26
+Abehavioural
+R15
+R16
+R17
+DEx4 work 7 regfile 0 22 cT2;_a4CfFY:WAL7IWbc[3
+l22
+L16
+Vf_5jA8XWk8VcIaek[g_OR2
+!s100 8ioV1Oca]g<e@8jYmM]^a3
+R20
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R25
+R26
+vregFile
+R0
+!i10b 1
+!s100 Jnn26;Y;O^b_e?]W0h9kn1
+ILZgM0^`HR6`SbBlbSn;<h1
+R1
+R2
+w1572518383
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/regFile.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/regFile.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/regFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/regFile.v|
+!i113 1
+R6
+R7
+nreg@file
+vSN
+!s110 1569940410
+!i10b 1
+!s100 ALVhQGAQIbd^ODElBmPej2
+In;<NK6i32`mi;2M7KSNjh2
+R1
+R2
+w1569440218
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/Test_Verilog.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/Test_Verilog.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1569940410.000000
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/Test_Verilog.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/Test_Verilog.v|
+!i113 1
+R6
+R7
+n@s@n
+Etb
+Z43 w1569440537
+R15
+R16
+R17
+R2
+Z44 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/TB.vhd
+Z45 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/TB.vhd
+l0
+L5
+VO:DeQhzE5V>e0M;`g8z@I2
+!s100 iS?=ZAe7joE55<`aAEViS1
+R20
+32
+Z46 !s110 1570719574
+!i10b 1
+Z47 !s108 1570719574.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/TB.vhd|
+Z49 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/Lab_3/TB.vhd|
+!i113 1
+R25
+R26
+Abehave
+R15
+R16
+R17
+DEx4 work 2 tb 0 22 O:DeQhzE5V>e0M;`g8z@I2
+l19
+L9
+V<PGij>NR@6bKEciA<2eAk2
+!s100 `^[_V=UT;GnK;lGbXlB7R3
+R20
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R25
+R26
+vTB
+R27
+!i10b 1
+!s100 E;Ck_=U5KTM7WR[4Thn?^3
+IH[n7=]odBWo8A^GdQIoFH2
+R1
+R2
+R28
+R29
+R30
+L0 7
+R4
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R6
+R7
+n@t@b
+vTB_ALU
+R12
+!i10b 1
+!s100 @kY;0CNPGgW?M2GbkzmGK0
+IzOGE<SaXD8Lo5O2>5WA5L0
+R1
+R2
+w1570044867
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Test_Bench.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Test_Bench.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Test_Bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/Test_Bench.v|
+!i113 1
+R6
+R7
+n@t@b_@a@l@u
+Etb_regfile
+Z50 w1570812601
+R15
+R16
+R17
+R2
+Z51 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/TB_REGFILE.vhd
+Z52 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/TB_REGFILE.vhd
+l0
+L5
+VLJGjoX:cKg?1zYn6obfN^2
+!s100 @D_`ncTPna[5CPZ=bW:h]2
+R20
+32
+R34
+!i10b 1
+R13
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/TB_REGFILE.vhd|
+Z54 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/VHDL/RegFile/TB_REGFILE.vhd|
+!i113 1
+R25
+R26
+Abehave
+R15
+R16
+R17
+DEx4 work 10 tb_regfile 0 22 LJGjoX:cKg?1zYn6obfN^2
+l30
+L9
+Vcfk]:EAa^[g2FOM1LUZlD3
+!s100 PE36RmOED>TAL@lAV;]4T2
+R20
+32
+R34
+!i10b 1
+R13
+R53
+R54
+!i113 1
+R25
+R26
+vtestbench
+R12
+!i10b 1
+!s100 5L[oYjiaoS=8MHo6n[4I53
+IKlAQBF;E:Ck0k;akiKWz42
+R1
+R2
+w1572518387
+8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/testbench.v
+FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Control Logic/uasm/testbench.v|
+!i113 1
+R6
+R7

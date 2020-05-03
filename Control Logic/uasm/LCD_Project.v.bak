@@ -1,0 +1,28 @@
+module LCD(
+	input E,
+	input RS,
+	input RW,
+	input[15:0] DATA_I,
+	output[15:0] DATA_O,
+	output OUTPUT_MODE
+	);
+
+reg temp;
+wire DATA_O;
+
+
+assign OUTPUT_MODE = temp;
+
+
+always @(RS or RW or E or DATA_I or DATA_O or temp) begin
+
+if(RW == 1'b1 && E == 1'b1)
+begin
+DATA_O = DATA_I;
+if(RS == 1'b1) temp = 1'b1;
+else temp = 1'b0;
+end
+
+
+end
+endmodule

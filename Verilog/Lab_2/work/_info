@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vGATES
+Z0 !s110 1569439263
+!i10b 1
+!s100 aTLUF?HfFShHd<E__AT`m2
+INDnJaPAi9HnB]K1FHjBR41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2
+Z3 w1568231600
+Z4 8C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v
+Z5 FC:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v
+L0 1
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1569439263.000000
+Z8 !s107 C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@g@a@t@e@s
+vTB
+R0
+!i10b 1
+!s100 E;Ck_=U5KTM7WR[4Thn?^3
+IH[n7=]odBWo8A^GdQIoFH2
+R1
+R2
+R3
+R4
+R5
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@t@b

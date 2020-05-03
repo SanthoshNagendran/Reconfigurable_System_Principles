@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.numeric_std.ALL;
+
+entity GATES is
+port(
+--Inputs
+   A,B,C : in std_logic;
+--OUTPUTS
+   F : out std_logic );
+end GATES;
+
+architecture RTL of GATES is
+begin
+   F<= (A or B) and C;
+
+
+end RTL;

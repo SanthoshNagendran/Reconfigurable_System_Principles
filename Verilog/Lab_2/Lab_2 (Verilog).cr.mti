@@ -1,0 +1,17 @@
+{C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/GATES.v} {1 {vlog -work work -stats=none {C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/GATES.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GATES
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v} {1 {vlog -work work -stats=none {C:/Users/Santhosh Nagendran/Desktop/Sem - 4/Reconfigurable Systems principles/Verilog/Lab_2/GATES.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module GATES
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

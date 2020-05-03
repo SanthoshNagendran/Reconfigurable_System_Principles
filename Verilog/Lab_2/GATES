@@ -1,0 +1,4 @@
+module GATES(input A,B,C, output F );
+
+endmodule
+
